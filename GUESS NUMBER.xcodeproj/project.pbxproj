@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		A3A779D02CAA948B008C394D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3A779B12CAA948A008C394D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3A779B82CAA948A008C394D;
+			remoteInfo = "GUESS NUMBER";
+		};
+		A3A779DA2CAA948C008C394D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3A779B12CAA948A008C394D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3A779B82CAA948A008C394D;
+			remoteInfo = "GUESS NUMBER";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A3A779B92CAA948A008C394D /* GUESS NUMBER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GUESS NUMBER.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3A779CF2CAA948B008C394D /* GUESS NUMBERTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GUESS NUMBERTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3A779D92CAA948C008C394D /* GUESS NUMBERUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GUESS NUMBERUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A3A779E12CAA948C008C394D /* Exceptions for "GUESS NUMBER" folder in "GUESS NUMBER" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = A3A779B82CAA948A008C394D /* GUESS NUMBER */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A3A779BB2CAA948A008C394D /* GUESS NUMBER */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A3A779E12CAA948C008C394D /* Exceptions for "GUESS NUMBER" folder in "GUESS NUMBER" target */,
+			);
+			path = "GUESS NUMBER";
+			sourceTree = "<group>";
+		};
+		A3A779D22CAA948B008C394D /* GUESS NUMBERTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "GUESS NUMBERTests";
+			sourceTree = "<group>";
+		};
+		A3A779DC2CAA948C008C394D /* GUESS NUMBERUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "GUESS NUMBERUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3A779B62CAA948A008C394D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3A779CC2CAA948B008C394D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3A779D62CAA948C008C394D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3A779B02CAA948A008C394D = {
+			isa = PBXGroup;
+			children = (
+				A3A779BB2CAA948A008C394D /* GUESS NUMBER */,
+				A3A779D22CAA948B008C394D /* GUESS NUMBERTests */,
+				A3A779DC2CAA948C008C394D /* GUESS NUMBERUITests */,
+				A3A779BA2CAA948A008C394D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3A779BA2CAA948A008C394D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3A779B92CAA948A008C394D /* GUESS NUMBER.app */,
+				A3A779CF2CAA948B008C394D /* GUESS NUMBERTests.xctest */,
+				A3A779D92CAA948C008C394D /* GUESS NUMBERUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3A779B82CAA948A008C394D /* GUESS NUMBER */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3A779E22CAA948C008C394D /* Build configuration list for PBXNativeTarget "GUESS NUMBER" */;
+			buildPhases = (
+				A3A779B52CAA948A008C394D /* Sources */,
+				A3A779B62CAA948A008C394D /* Frameworks */,
+				A3A779B72CAA948A008C394D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A3A779BB2CAA948A008C394D /* GUESS NUMBER */,
+			);
+			name = "GUESS NUMBER";
+			packageProductDependencies = (
+			);
+			productName = "GUESS NUMBER";
+			productReference = A3A779B92CAA948A008C394D /* GUESS NUMBER.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3A779CE2CAA948B008C394D /* GUESS NUMBERTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3A779E72CAA948C008C394D /* Build configuration list for PBXNativeTarget "GUESS NUMBERTests" */;
+			buildPhases = (
+				A3A779CB2CAA948B008C394D /* Sources */,
+				A3A779CC2CAA948B008C394D /* Frameworks */,
+				A3A779CD2CAA948B008C394D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3A779D12CAA948B008C394D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A3A779D22CAA948B008C394D /* GUESS NUMBERTests */,
+			);
+			name = "GUESS NUMBERTests";
+			packageProductDependencies = (
+			);
+			productName = "GUESS NUMBERTests";
+			productReference = A3A779CF2CAA948B008C394D /* GUESS NUMBERTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A3A779D82CAA948C008C394D /* GUESS NUMBERUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3A779EA2CAA948C008C394D /* Build configuration list for PBXNativeTarget "GUESS NUMBERUITests" */;
+			buildPhases = (
+				A3A779D52CAA948C008C394D /* Sources */,
+				A3A779D62CAA948C008C394D /* Frameworks */,
+				A3A779D72CAA948C008C394D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3A779DB2CAA948C008C394D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A3A779DC2CAA948C008C394D /* GUESS NUMBERUITests */,
+			);
+			name = "GUESS NUMBERUITests";
+			packageProductDependencies = (
+			);
+			productName = "GUESS NUMBERUITests";
+			productReference = A3A779D92CAA948C008C394D /* GUESS NUMBERUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3A779B12CAA948A008C394D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					A3A779B82CAA948A008C394D = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					A3A779CE2CAA948B008C394D = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = A3A779B82CAA948A008C394D;
+					};
+					A3A779D82CAA948C008C394D = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = A3A779B82CAA948A008C394D;
+					};
+				};
+			};
+			buildConfigurationList = A3A779B42CAA948A008C394D /* Build configuration list for PBXProject "GUESS NUMBER" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3A779B02CAA948A008C394D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A3A779BA2CAA948A008C394D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3A779B82CAA948A008C394D /* GUESS NUMBER */,
+				A3A779CE2CAA948B008C394D /* GUESS NUMBERTests */,
+				A3A779D82CAA948C008C394D /* GUESS NUMBERUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3A779B72CAA948A008C394D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3A779CD2CAA948B008C394D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3A779D72CAA948C008C394D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3A779B52CAA948A008C394D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3A779CB2CAA948B008C394D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3A779D52CAA948C008C394D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3A779D12CAA948B008C394D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3A779B82CAA948A008C394D /* GUESS NUMBER */;
+			targetProxy = A3A779D02CAA948B008C394D /* PBXContainerItemProxy */;
+		};
+		A3A779DB2CAA948C008C394D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3A779B82CAA948A008C394D /* GUESS NUMBER */;
+			targetProxy = A3A779DA2CAA948C008C394D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A3A779E32CAA948C008C394D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GUESS NUMBER/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "a.GUESS-NUMBER";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3A779E42CAA948C008C394D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GUESS NUMBER/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "a.GUESS-NUMBER";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A3A779E52CAA948C008C394D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A3A779E62CAA948C008C394D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3A779E82CAA948C008C394D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "a.GUESS-NUMBERTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GUESS NUMBER.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GUESS NUMBER";
+			};
+			name = Debug;
+		};
+		A3A779E92CAA948C008C394D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "a.GUESS-NUMBERTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GUESS NUMBER.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GUESS NUMBER";
+			};
+			name = Release;
+		};
+		A3A779EB2CAA948C008C394D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "a.GUESS-NUMBERUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GUESS NUMBER";
+			};
+			name = Debug;
+		};
+		A3A779EC2CAA948C008C394D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "a.GUESS-NUMBERUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GUESS NUMBER";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3A779B42CAA948A008C394D /* Build configuration list for PBXProject "GUESS NUMBER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3A779E52CAA948C008C394D /* Debug */,
+				A3A779E62CAA948C008C394D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3A779E22CAA948C008C394D /* Build configuration list for PBXNativeTarget "GUESS NUMBER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3A779E32CAA948C008C394D /* Debug */,
+				A3A779E42CAA948C008C394D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3A779E72CAA948C008C394D /* Build configuration list for PBXNativeTarget "GUESS NUMBERTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3A779E82CAA948C008C394D /* Debug */,
+				A3A779E92CAA948C008C394D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3A779EA2CAA948C008C394D /* Build configuration list for PBXNativeTarget "GUESS NUMBERUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3A779EB2CAA948C008C394D /* Debug */,
+				A3A779EC2CAA948C008C394D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3A779B12CAA948A008C394D /* Project object */;
+}
